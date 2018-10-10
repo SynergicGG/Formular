@@ -1,0 +1,104 @@
+<html>
+
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+</head>
+
+<body>
+	<h1>Můj hrob</h1>
+
+	<form method="POST">
+		<h3>Údaje o uživateli:</h3>
+		Jméno: <br />
+		<input type="text" name="jmeno" />
+		<br /><br /> Příjmení:
+		<br />
+		<input type="text" name="prijmeni" />
+		<br /><br /> Titul:
+		<br />
+		<select name="titul" />
+		<option value="mgr">
+		 mgr.
+		</option>
+		<option value="paedr">
+			paedr.
+		</option>
+		<option value="dr">
+			dr.
+		</option>
+		<option value="ing">
+			ing.
+		</option>
+		<option value="jehllik">
+			jehllik.
+		</option>
+		<option value="kt">
+			K.T.
+		</option>
+		</select>
+		<br /><br /> Gender:
+		
+		<br />
+		<input type="radio" name="gender" value="male" checked/> Muž <br />
+		<input type="radio" name="gender" value="female" /> Žena <br />
+
+		<input type="radio" name="gender" value="other" /> Jiné <br />
+		
+		<br /><br /> E-mail:
+		<br />
+		<input type="text" name="email" />
+		<br /><br /> Telefonní číslo:
+		<br />
+		<input type="text" name="telefonnicislo" />
+		<br /><br /> Heslo:
+		<br />
+		<input type="password" name="heslo" />
+		<br /><br /> Zopakujte heslo:
+		<br />
+		<input type="password" name="heslo" />
+
+		<h3>Fakturační údaje:</h3>
+		<br /><br /> Stát:
+		<br />
+		<select name="stat" />
+		 <option value="cr">
+			 Česká Republika
+			 </option>
+			<option value="ug">
+				Uganda
+			</option>
+			<option value="sk">
+				Slovensko
+			</option>
+			 <br/>
+			 </select>
+		<br /><br /> Kraj:
+		<br />
+		<input type="text" name="kraj" />
+		<br /><br /> Město:
+		<br />
+		<input type="text" name="mesto" />
+		<br /><br /> Ulice a ČP:
+		<br />
+		<input type="text" name="uliceacp" />
+		<br /><br /> PSČ:
+		<br />
+		<input type="text" name="psc" />
+		<h3>Souhlasy:</h3>
+		Prohlašuji že:
+		<br /><input type="checkbox" name="souhlasGDPR"/>
+		souhlasím s podmínkami o osobních údajích (GDPR).
+		<br /><input type="checkbox" name="souhlasSPGA" /> 
+		souhlasím s platbou nedobrovolného příspěvku pro spolek přátel gymnázia Arabská (SPGA).
+		<br /><input type="checkbox" name="souhlasOSN" /> 
+		souhlasím s ustanovenými pravidly Organizace spojených národů (OSN).
+		<br /><input type="checkbox" name="souhlasGDPR" /> 
+		chci dostávat novinky ze společnosti na svůj e-mail (.com).
+		<br />
+		<br />
+		<input type="submit" aria-valuemax="Budiž" />
+	</form>
+</body>
+
+</html>
